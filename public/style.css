@@ -6,21 +6,44 @@ body {
 h1 {
   position: absolute;
   left: 15px;
+  top: -10px;
   color: #efd3ae;
   background-color: #856367;
   width: 400px;
+  height: 40px;
   text-align: center;
+  border-radius: 5px;
+  float: left;
 }
 
 #container {
   width: 1220px;
   height: 675px;
-  margin-top: auto;
+  margin-top: 20px;
   margin-bottom: auto;
   margin-left: auto;
   margin-right:auto;
   background-color: #a7b3a5;
   position: relative;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 8px;
+}
+
+#intro {
+  position: absolute;
+  padding-bottom: 10px;
+  left: 426px;
+  top: 11px;
+  color: #eae3ea;
+  background-color: #856367;
+  width: 775px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  float: left;
 }
 
 #main-map {
@@ -30,6 +53,7 @@ h1 {
   width: 400px;
   height: 600px;
   display: inline-block;
+  border-radius: 5px;
 }
 
 #bar-graph {
@@ -40,6 +64,7 @@ h1 {
   width: 400px;
   height: 600px;
   display: inline-block;
+  border-radius: 5px;
 }
 
 #ul {
@@ -53,10 +78,13 @@ h1 {
   height: 560px;
   overflow: scroll;
   display: inline-block;
+  border-radius: 5px;
+
 }
 
 #ul::-webkit-scrollbar {
-  width: 1em;
+  width: 0.5em;
+  height: 0em;
 }
 
 #ul::-webkit-scrollbar-thumb {
